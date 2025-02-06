@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import ImageSlideshow from '../components/image-slideshow.js'
+import './globals.css'
 
 import classes from './page.module.css';
 
