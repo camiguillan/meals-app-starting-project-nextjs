@@ -4,10 +4,12 @@ import MealsGrid from '../../components/meals-grid'
 import { getMeals } from '../../lib/meals'
 
 export default async function MealsPage(){
+    console.log('mealspage---------------------------------------------------------')
 
     const meals = await getMeals(); 
+    
+    console.log('meals',   meals)
 
-    console.log(meals)
 
     return <>
         <header className={css.header} >  
