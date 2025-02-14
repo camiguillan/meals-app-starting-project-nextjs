@@ -3,6 +3,7 @@ import css from './page.module.css'
 import MealsGrid from '../../components/meals-grid'
 import { getMeals } from '../../lib/meals'
 import { Suspense } from 'react';
+import '../globals.css'
 
 
 async function Meals(){
